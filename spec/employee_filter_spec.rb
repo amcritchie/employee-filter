@@ -38,7 +38,6 @@ describe EmployeeFilter do
         "Beaulah Thompson (Lead Security Facilitator) - 2/9/2005",
         "Benny Walker (National Research Officer) - 6/23/2006"
       ]
-
       expect(EmployeeFilter.new(@employees).all_with_start_date).to eq(employees_with_start_dates)
     end
   end
